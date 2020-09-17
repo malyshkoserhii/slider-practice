@@ -1,3 +1,5 @@
+/* @import 'baguettebox.js/dist/baguetteBox.min.css'; */
+
 html {
   box-sizing: border-box;
 }
@@ -16,5 +18,20 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+  /* background-image: url('./images/bg-pattern.png'); */
+}
+
+a {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
 }
