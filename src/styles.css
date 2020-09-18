@@ -21,6 +21,11 @@ body {
   /* background-image: url('./images/bg-pattern.png'); */
 }
 
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
 a {
   display: block;
 }
@@ -29,6 +34,14 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.planet {
+  width: 1340px;
+}
+
+.planet__wrapper {
+  padding-top: 100px;
 }
 
 .gallery {
